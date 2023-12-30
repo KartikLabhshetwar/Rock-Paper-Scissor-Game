@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 
 html{
     background-color: #8EC5FC;
@@ -6,31 +9,25 @@ html{
 }
 
 body{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin:0;
     padding:0;
 }
 
-/* h1 {
-    font-size: 150px;
-    font-weight: 700;
-    color: #393E46;
-    text-shadow: 2px 2px 4px #ffa5d8;
-    animation: textShake 3s ease-in-out infinite alternate;
-   } */
    
-   @keyframes textShake {
+@keyframes textShake {
      0% { transform: translateX(0px); }
      25% { transform: translateX(-5px); }
      50% { transform: translateX(5px); }
      75% { transform: translateX(-5px); }
      100% { transform: translateX(0px); }
-   }
+}
 
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
+    padding-bottom: 20px;
     padding-top: 100px;
     font-family: Lora;
     color: #393E46;
@@ -40,72 +37,31 @@ h1{
 }
 
 
-
-
-/* p{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 0.5rem;
-} */
-
-
-
-/* p{ 
-    font-size: 1.5rem; 
-    text-align: center; 
-    margin-bottom: 0.5rem; 
-    -webkit-animation: shine 3s infinite linear;
-    animation: shine 3s infinite linear;
-   }
-
-    @-webkit-keyframes shine {
-     0% {
-        color: #393E46;
-        text-shadow: none;
-     }
-     50%{
-        color: #393E46;
-        text-shadow: 0 0 10px #ffa5d8, 0 0 15px #ffa5d8, 0 0 20px #ffa5d8, 0 0 25px #ffa5d8, 0 0 30px #ffa5d8, 0 0 35px #ffa5d8, 0 0 40px #ffa5d8;
-     }
-     100% {
-        color: #393E46;
-        text-shadow: 0 0 20px #ffa5d8, 0 0 30px #ffa5d8, 0 0 40px #ffa5d8, 0 0 50px #ffa5d8, 0 0 60px #ffa5d8, 0 0 70px #ffa5d8, 0 0 80px #ffa5d8;
-     }
-    } */
-
-    /* p{ 
-        font-size: 1.5rem; 
-        text-align: center; 
-        margin-bottom: 0.5rem; 
-        -webkit-animation: shine 3s infinite linear; 
-        animation: shine 3s infinite linear; 
-    }
-    
-    @keyframes shine {
-        0% {
-            background-position: 0 60%;
-        }
-        100% {
-            background-position: 180px 100%;
-        }
-    } */
-
-
-    p {
-        font-family: 'Teko', sans-serif;
-        font-size: 1.5rem;
+     p{
+        font-family: 'Abel', sans-serif;
+        font-size: 2rem;
         text-align: center;
         margin-bottom: 0.5rem;
-        animation: shine 3s infinite linear;
+        color: #393E46;
+        /* animation: shine 3s infinite linear;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        background-image: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+        background-image: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%); */
     }
 
     @keyframes shine {
         0% {
             background-position: 0 60%;
+        }
+        25% {
+            background-position: 45px 100%;
+        }
+        50% {
+            background-position: 90px 100%;
+        }
+        75% {
+            background-position: 135px 100%;
         }
         100% {
             background-position: 180px 100%;
